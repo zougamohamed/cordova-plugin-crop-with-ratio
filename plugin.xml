@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="cordova-plugin-crop"
-  version="0.3.1">
+  id="cordova-plugin-crop-with-ratio"
+  version="0.0.1">
 
-  <name>CropPlugin</name>
+  <name>CropPluginWithRatio</name>
 
   <description>
-    Crop an image in a Cordova app
+    Crop an image with ratio in a Cordova app
   </description>
 
   <license>MIT</license>
