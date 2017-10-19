@@ -1,4 +1,4 @@
-# cordova-plugin-crop
+# cordova-plugin-crop-with-ratio
 
 > Crop an image in a Cordova app
 
