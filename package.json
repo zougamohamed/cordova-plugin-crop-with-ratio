@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Crop an image in a Cordova app with ratio",
   "cordova": {
-    "id": "cordova-plugin-crop-with-crop",
+    "id": "cordova-plugin-crop",
     "platforms": [
       "android",
       "ios"
