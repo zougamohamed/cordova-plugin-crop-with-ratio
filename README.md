@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ cordova plugin add --save cordova-plugin-crop
+$ cordova plugin add --save https://github.com/obeza/cordova-plugin-crop-with-ratio
 ```
 
 
