@@ -13,6 +13,15 @@ $ cordova plugin add --save https://github.com/obeza/cordova-plugin-crop-with-ra
 ## Usage
 
 ```js
+
+let options = {
+          quality: 75,
+          widthRatio:1,
+          heightRatio:1,          
+          targetWidth:600,
+          targetHeight:600
+};
+
 plugins.crop(function success () {
 
 }, function fail () {
