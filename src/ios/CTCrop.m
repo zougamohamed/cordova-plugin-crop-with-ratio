@@ -18,6 +18,7 @@
     NSString *imagePath = [command.arguments objectAtIndex:0];
     NSDictionary *options = [command.arguments objectAtIndex:1];
     
+    self.quality = options[@"quality"] ? [options[@"quality"] intValue] : 100;
     self.targetWidth = options[@"targetWidth"] ? [options[@"targetWidth"] intValue] : -1;
     self.targetHeight = options[@"targetHeight"] ? [options[@"targetHeight"] intValue] : -1;
     self.widthRatio = options[@"widthRatio"] ? [options[@"widthRatio"] intValue] : -1;
@@ -47,11 +48,6 @@
     CGFloat height = self.targetHeight > -1 ? (CGFloat)self.targetHeight : image.size.height;
     CGFloat croperWidth;
     CGFloat croperHeight;
-    
-    cropController.imageCropRect = CGRectMake((width - length) / 2,
-                                              (height - length) / 2,
-                                              length,
-                                              length);
     
      if (self.widthRatio < 0 || self.heightRatio < 0){
          cropController.keepingCropAspectRatio = NO;
